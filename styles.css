@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: gainsboro; */
+}
+
+body {
+  display: block;
+  font-family: "Montserrat",sans-serif;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+header, h1, p {
+  margin: 10px 0 0 0;
+}
+
+table {
+  margin: 0 auto;
+  width: 650px;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+
+caption {
+  margin: 5px 0;
+  color: hsl(271, 100%, 43%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+th {
+  background-color: hsl(271, 76%, 53%);
+  color: white;
+}
+
+th, td {
+  padding: 1px;
+  border: solid white 1px;
+  font-size: 14px;
+}
+
+td:first-child {
+  background-color: hsl(270, 100%, 89%);
+  font-size: 10px;
+  width: 20px;
+}
+
+td:nth-child(2) {
+  padding: 0 5px;
+  width: 200px;
+  text-align: left;
+}
+
+td:last-child {
+  padding: 0 5px;
+  text-align: justify;
+}
+
+td span, td strong, strong {
+  color: hsl(271, 76%, 53%);
+  font-weight: bold;
+}
+
+footer {
+  margin: 5px 0;
+  width: 650px;
+}
